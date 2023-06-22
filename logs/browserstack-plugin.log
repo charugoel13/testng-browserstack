@@ -1,0 +1,6 @@
+01:32:50.233 [AWT-EventQueue-0] INFO  c.b.actions.EnableBrowserStack - Setting enable browserstack run update
+01:32:50.235 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - /Users/charu.goelmonotype.com/.m2/repository/com/browserstack/browserstack-java-sdk/1.7.4/browserstack-java-sdk-1.7.4.jar
+01:32:50.235 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+01:32:50.241 [AWT-EventQueue-0] INFO  c.b.actions.DisableBrowserStack - Setting disable browserstack run update
+01:32:50.241 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - /Users/charu.goelmonotype.com/.m2/repository/com/browserstack/browserstack-java-sdk/1.7.4/browserstack-java-sdk-1.7.4.jar
+01:32:50.241 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null

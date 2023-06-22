@@ -1,0 +1,36 @@
+01:29:28.466 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+01:29:28.469 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+01:29:28.999 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+01:29:29.198 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+01:29:34.962 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+01:29:49.632 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Auth Token must be alphanumeric characters only. Please fetch it from Local Testing section of settings page:  https://www.browserstack.com/accounts/settings.
+01:29:49.632 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed Auth Token must be alphanumeric characters only. Please fetch it from Local Testing section of settings page:  https://www.browserstack.com/accounts/settings.
+01:38:39.153 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+01:38:39.156 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+01:38:39.384 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+01:38:39.582 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+01:38:46.729 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+01:38:52.592 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+01:39:14.383 [tearDown@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'NOI-C02FW1GQMD6N.local', ip: '2405:201:401a:4d4d:f44d:5b07:d64a:bbe4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:3365}, msedge: {msedgedriverVersion: 114.0.1823.37 (7a86dd8802e2..., userDataDir: C:\Windows\proxy\scoped_dir...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 1d67fe1d33cd7a488a16b5ef46d...}
+01:39:18.444 [tearDown@2] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'NOI-C02FW1GQMD6N.local', ip: '2405:201:401a:4d4d:f44d:5b07:d64a:bbe4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: chrome, chromedriverPort: 18084, databaseEnabled: false, desired: {browserName: chrome, chromedriverPort: 18084, deviceName: android, goog:chromeOptions: {args: [start-maximized, --proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://193.1..., --disable-features=Translate]}, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8204, udid: R5CT30ZT6EK}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-S908E, deviceName: R5CT30ZT6EK, deviceScreenDensity: 450, deviceScreenSize: 1080x2316, deviceUDID: R5CT30ZT6EK, goog:chromeOptions: {args: [start-maximized, --proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://193.1..., --disable-features=Translate]}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 0, pixelRatio: 2.8125, platform: LINUX, platformName: LINUX, platformVersion: 12, skipServerInstallation: true, statBarHeight: 75, systemPort: 8204, takesScreenshot: true, udid: R5CT30ZT6EK, viewportRect: {height: 2031, left: 0, top: 75, width: 1080}, warnings: {}, webStorageEnabled: false}
+01:39:20.626 [tearDown@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'NOI-C02FW1GQMD6N.local', ip: '2405:201:401a:4d4d:f44d:5b07:d64a:bbe4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.90, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: /var/folders/yj/h3bj394n2tn...}, goog:chromeOptions: {debuggerAddress: localhost:60720}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 6df5095c5494abb71f5dc880699...}
+01:39:21.096 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/xachzrfytxeyeqhy5plg4efwli3oqwpbosadmzmz to view build report, insights, and many more debugging information all at one place!
+
+01:39:22.292 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/6e01beb85f9edf2f624fa61e79c7165aa39fb1e4
+01:39:22.292 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+01:39:23.823 [Thread-2] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
